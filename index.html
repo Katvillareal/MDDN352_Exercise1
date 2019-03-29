@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+
+
+
+  @media print {
+ body { font-size: 10pt }
+}
+@media screen {
+ body { font-size: 13px }
+}
+@media handheld {
+ body { font-size: 10px }
+}
+@media screen, print {
+ body { line-height: 1.2 }
+}
+
+nav select {
+ display: none;
+}
+
+@media (max-width: 960px) {
+ nav ul { display: none; }
+ nav select { display: inline-block; }
+}
+body {
+  background-color: yellow;
+}
+
+@media only screen and (max-width: 960px) {
+  body {
+    background-color: lightblue;
+  }
+
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#contact">News</a></li>
+  <li><a href="#article">Contact</a></li>
+</ul>
+<select>
+ <option value="" selected="selected">Select</option>
+ <option value="home.html">Home</option>
+ <option value="contact.html">Page 1</option>
+ <option value="article.html">Page 2</option>
+ </select>
+ </nav>
+
+
+
+<h1>Hello</h1>
+<h2>My name is Katrina</h2>
+<h3>I am majoring in Media Design</h3>
+
+
+
+</body>
+</html>
